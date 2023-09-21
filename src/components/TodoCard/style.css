@@ -1,0 +1,33 @@
+.todoCardWrapper {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 1rem 0 3rem 0;
+}
+
+.todoCardWrapper h4 {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.showMoreWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.showMore {
+  padding: 0.6rem 1rem;
+  width: fit-content;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(0 5px 5px rgba(13, 46, 231, 0.459));
+  background: #0575e6;
+  background: linear-gradient(to right, #021b79, #0575e6);
+}

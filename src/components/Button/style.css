@@ -1,0 +1,27 @@
+.btn {
+  padding: 0.6rem 1rem;
+  width: fit-content;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn.bg-blue {
+  background-color: rgb(7, 9, 134);
+  padding: 0.6rem 4rem;
+  filter: drop-shadow(0 5px 5px rgba(13, 46, 231, 0.459));
+}
+.btn.bg-green {
+  background-color: rgb(7, 187, 7);
+  filter: drop-shadow(0 3px 5px rgba(13, 231, 42, 0.671));
+  width: 100px;
+}
+.btn.bg-pending {
+  background-color: rgb(250, 139, 12);
+  filter: drop-shadow(0 3px 5px rgba(250, 59, 1, 0.671));
+  width: 100px;
+}

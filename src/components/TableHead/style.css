@@ -1,0 +1,12 @@
+.tableHeadWrapper {
+  background-color: rgb(238, 238, 238);
+}
+
+.tableHeadWrapper th {
+  padding: 0.6rem;
+  color: #9e9d9d;
+}
+
+.tableHeadWrapper th:nth-child(1) {
+  text-align: start;
+}
